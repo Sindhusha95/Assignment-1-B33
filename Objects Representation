@@ -1,0 +1,19 @@
+Write a blog about objects and its internal representation in Javascript.
+
+
+In Javascript objects is one of the most important data-type. Objects are different from primitive data types like: Number, String, Boolean, null, undefined and 
+symbol which can only store single value each.
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+An object, is a reference data type. Variables that are assigned a reference value are given a reference or a pointer to that value.
+That reference or pointer points to the location in memory where the object is stored. The variables don’t actually store the value.
+For example: If an object is a student it will have properties like name, age, address, Id etc..
+A property of an object can be explained as a variable that is attached to the object. Properties of the object define characteristics of the object. 
+We can access properties of an object with a simple dot-notation
+objectName.propertyName
+Like all others in javascript variables, both the object name and property are case sensitive.
+Example of Object:
+
+var studentName = new Object();
+studentName.age = 22;
+studentName.Id= Ws1234;
+studentName.location= Mumbai
