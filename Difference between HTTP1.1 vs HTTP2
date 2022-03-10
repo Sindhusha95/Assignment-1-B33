@@ -1,0 +1,10 @@
+1. Write a blog on Difference between HTTP1.1 vs HTTP2
+
+HTTP stands for Hyper Text Transfer Protocol. It is the foundation of the World Wide Web, and is used to load web pages using hypertext links.
+HTTP 1.1 version came to picture in 1997, since then the protocol was unchanged, but IETF(Internet Engineering Task Force) revised the protcol and released 
+a newer version of HTTP i.e. HTTP 2.0 in the year 2015.
+The basic difference between both is, there are many advance features  implemented in HTTP 2.0 , since HTTP 1.1 "practically" only allows one outstanding request 
+per TCP connection. But with HTTP 2.0 we can have multiple request at a time.
+So, Multiplexing multiple requests over a single TCP connection is an advantage out of many advantages in HTTP 2.0 together with HTTP headers compression, priority
+and more intelligent packet streaming management. 
+This results in reduced latency and accelerates content download on modern web pages.
